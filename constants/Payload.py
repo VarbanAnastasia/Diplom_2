@@ -5,11 +5,6 @@ faker = Faker()
 
 
 class PayloadCreateUser:
-    headers_unique = {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZGFkODAzOWVkMjgwMDAxYjNiZDgwZSIsImlhdCI6MTcwODg0MDk3NSwiZXhwIjoxNzA4ODQyMTc1fQ.L_leEDpsto8PSxknRbhLR3PURY9ljcc9GFr9xhZnG8U'
-    }
-
     create_user_200_payload = json.dumps({
         "email": faker.email(),
         "password": faker.password(),
@@ -27,11 +22,6 @@ class PayloadCreateUser:
 
 
 class PayloadLoginUser:
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZGFkODAzOWVkMjgwMDAxYjNiZDgwZSIsImlhdCI6MTcwODg0MDk3NSwiZXhwIjoxNzA4ODQyMTc1fQ.L_leEDpsto8PSxknRbhLR3PURY9ljcc9GFr9xhZnG8U'
-    }
-
     login_user_existed = json.dumps({
         "email": "avarban@mail.ru",
         "password": "123456789QWERTY",
@@ -42,3 +32,37 @@ class PayloadLoginUser:
         "password": faker.password(),
         "name": faker.name()
     })
+
+
+class PayloadChangeData:
+    user = json.dumps({
+        "email": "avarban@mail.ru",
+        "password": "123456789QWERTY",
+        "name": "Anastasia"
+    })
+
+    user_changed_data = {
+        "email": "avarban@mail.ru",
+        "password": "123456789QWERTY",
+        "name": "Nastya"
+    }
+
+    data_double = {
+        "email": "abvarban@mail.ru",
+        "password": faker.password(),
+        "name": faker.name()
+    }
+
+
+class IngredientsPayload:
+    data_ingredient = {
+        "ingredients": ["61c0c5a71d1f82001bdaaa6d", "61c0c5a71d1f82001bdaaa6f"]
+    }
+
+    data_not_ingredient = {
+        "ingredients": []
+    }
+
+    data_bad_ingredient = {
+        "ingredients": ["61c0c5a71d1f82001bdaaa61", "61c0c5a71d1f82001bdaaa61"]
+    }
