@@ -1,8 +1,8 @@
 import allure
 import requests
 
-from constants.Payload import PayloadLoginUser
-from constants.Constants import Constants
+from constants.payload import PayloadLoginUser
+from constants.constants import Constants
 
 
 @allure.epic("Авторизация пользователя")

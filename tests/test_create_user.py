@@ -1,8 +1,8 @@
 import allure
 import requests
 
-from constants.Payload import PayloadCreateUser
-from constants.Constants import Constants
+from constants.payload import PayloadCreateUser
+from constants.constants import Constants
 
 
 @allure.epic("Создание пользователя")

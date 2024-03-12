@@ -1,7 +1,7 @@
 import allure
 import requests
-from constants.Constants import Constants
-from constants.Payload import PayloadChangeData
+from constants.constants import Constants
+from constants.payload import PayloadChangeData
 
 
 @allure.epic("Получение заказов пользователя")

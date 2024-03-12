@@ -3,8 +3,8 @@ import pytest
 import requests
 
 
-from constants.Payload import PayloadChangeData
-from constants.Constants import Constants
+from constants.payload import PayloadChangeData
+from constants.constants import Constants
 
 
 @allure.epic("Обновление данных пользователя")

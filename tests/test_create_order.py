@@ -1,8 +1,8 @@
 import allure
 import requests
 
-from constants.Constants import Constants
-from constants.Payload import IngredientsPayload
+from constants.constants import Constants
+from constants.payload import IngredientsPayload
 
 
 @allure.epic("Создание заказа")
