@@ -31,6 +31,6 @@ class TestUpdateDataUser:
         )
     ])
     def test_create_user_fail(self, data, status_code):
-        response = requests.patch(url=Constants.CHANGE_DATA,
-                                  headers=Constants.headers, data=PayloadChangeData.data_double, json=data)
+        response = requests.request("PATCH", url=Constants.CHANGE_DATA, headers=Constants.headers,
+                                    data=PayloadChangeData.data_double, json=data)
         assert response.status_code == status_code

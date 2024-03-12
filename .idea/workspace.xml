@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="731f5550-a8e7-492b-9a1e-8ed90658048e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ccKYWnsoxaG7gNb0pUHvy9Z0Ug" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_change_data.TestUpdateDataUser.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_change_data.TestUpdateDataUser.test_create_user_fail.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_change_data.TestUpdateDataUser.test_update_data_user_200.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_change_data.test_change_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_order.TestCreateOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_order.TestCreateOrder.test_create_order_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_order.TestCreateOrder.test_create_order_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_order.TestCreateOrder.test_create_order_03.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_user.TestCreateUser.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_user.TestCreateUser.test_create_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_user.TestCreateUser.test_create_user_200.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_user.TestCreateUser.test_create_user_existed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_user.TestCreateUser.test_create_user_one_missing.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_user.TestLoginUser.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_user.TestLoginUser.test_login_user_200.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_user.TestLoginUser.test_login_user_401.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_order_for_certain_user.TestGetOrderUser.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_order_for_certain_user.TestGetOrderUser.test_get_order_login_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_order_for_certain_user.TestGetOrderUser.test_updated_order_not_login_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_change_data.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop2&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Анастасия/Downloads/пум&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\PycharmProjects\Diplom_2\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in tests">
+    <configuration name="Python tests for test_create_order.TestCreateOrder" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_create_order.TestCreateOrder&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_create_order.TestCreateOrder.test_create_order_01" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_create_order.TestCreateOrder.test_create_order_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_create_order.TestCreateOrder.test_create_order_03" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_create_order.TestCreateOrder.test_create_order_03&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_order_for_certain_user.TestGetOrderUser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_order_for_certain_user.TestGetOrderUser&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in tests" />
+        <item itemvalue="Python tests.Python tests for test_create_order.TestCreateOrder" />
+        <item itemvalue="Python tests.Python tests for test_create_order.TestCreateOrder.test_create_order_03" />
+        <item itemvalue="Python tests.Python tests for test_create_order.TestCreateOrder.test_create_order_01" />
+        <item itemvalue="Python tests.Python tests for test_order_for_certain_user.TestGetOrderUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="731f5550-a8e7-492b-9a1e-8ed90658048e" name="Changes" comment="" />
+      <created>1708405474880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708405474880</updated>
+    </task>
+    <servers />
+  </component>
+</project>

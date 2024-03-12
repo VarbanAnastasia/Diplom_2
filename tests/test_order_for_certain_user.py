@@ -8,7 +8,7 @@ from constants.Payload import PayloadChangeData
 class TestGetOrderUser:
     @allure.step("Получение авторизационного токена и сохранение в переменную")
     def get_authentication_token(self):
-        token = requests.post(Constants.LOG_IN_USER, headers=Constants.headers,
+        token = requests.request("POST", Constants.LOG_IN_USER, headers=Constants.headers,
                               data=PayloadChangeData.user)
         new_token = token.json()['accessToken']
         return new_token
@@ -16,13 +16,13 @@ class TestGetOrderUser:
     @allure.story("Получение заказов авторизованного пользователя")
     def test_get_orders_for_authenticated_user(self):
         new_token = self.get_authentication_token()
-        response = requests.get(Constants.ORDER,
+        response = requests.request("GET", Constants.ORDER,
                                 headers={'Authorization': new_token}, data=PayloadChangeData.user_changed_data)
         body = response
         assert response.status_code == 200 and body.json()['success'] == True
 
     @allure.story("Получение заказов неавторизованного пользователя")
     def test_get_orders_for_unauthenticated_user(self):
-        response = requests.get(Constants.ORDER, headers=Constants.headers)
+        response = requests.request("GET", Constants.ORDER, headers=Constants.headers)
         body = response
         assert response.status_code == 401 and body.json()['success'] == False
