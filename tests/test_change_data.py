@@ -16,6 +16,7 @@ class TestUpdateDataUser:
         new_token = token.json()['accessToken']
         return new_token
 
+    @allure.title("Обновление данных пользователя")
     def test_update_data_user_200(self):
         new_token = self.get_authentication_token()
         payload = PayloadChangeData.user_changed_data
@@ -30,6 +31,7 @@ class TestUpdateDataUser:
                 pytest.param(PayloadChangeData.data_double, 400)
         )
     ])
+    @allure.title("Обновление данных пользователя с неверными данными")
     def test_create_user_fail(self, data, status_code):
         response = requests.request("PATCH", url=Constants.CHANGE_DATA, headers=Constants.headers,
                                     data=PayloadChangeData.data_double, json=data)

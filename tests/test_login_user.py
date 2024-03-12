@@ -8,7 +8,7 @@ from constants.Constants import Constants
 @allure.epic("Авторизация пользователя")
 class TestLoginUser:
 
-    @allure.step("Авторизация пользователя")
+    @allure.title("Авторизация пользователя")
     def test_login_user_200(self):
         response = requests.request("POST", Constants.LOG_IN_USER, headers=Constants.headers,
                                     data=PayloadLoginUser.login_user_existed)
@@ -16,7 +16,7 @@ class TestLoginUser:
         assert response.status_code == 200
         assert response.json()["success"] is True
 
-    @allure.step("Авторизация пользователя с неверными данными")
+    @allure.title("Авторизация пользователя с неверными данными")
     def test_login_user_401(self):
         response = requests.request("POST", Constants.LOG_IN_USER, headers=Constants.headers,
                                     data=PayloadLoginUser.login_wrong_data)
